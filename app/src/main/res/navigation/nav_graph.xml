@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    app:startDestination="@id/movieListFragment">
+
+    <fragment
+        android:id="@+id/movieListFragment"
+        android:name="com.michael.moviesapp.ui.movie.MovieListFragment"
+        android:label="Top Movies"
+        tools:layout="@layout/fragment_movie_list">
+        <action
+            android:id="@+id/action_movieListFragment_to_movieDetailFragment"
+            app:destination="@id/movieDetailFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/favoritesFragment"
+        android:name="com.michael.moviesapp.ui.favorites.FavoritesFragment"
+        android:label="Favorites"
+        tools:layout="@layout/fragment_favorites">
+        <action
+            android:id="@+id/action_favoritesFragment_to_movieDetailFragment"
+            app:destination="@id/movieDetailFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/movieDetailFragment"
+        android:name="com.michael.moviesapp.ui.movie.MovieDetailFragment"
+        android:label="Movie Details"
+        tools:layout="@layout/fragment_movie_detail">
+        <argument
+            android:name="movie"
+            app:argType="com.michael.moviesapp.data.model.Movie" />
+    </fragment>
+</navigation>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="16dp">
+
+    <!-- Placeholder text for empty favorites -->
+    <TextView
+        android:id="@+id/textNoFavorites"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/no_favorite_movies_yet"
+        android:textSize="18sp"
+        android:textColor="@android:color/darker_gray"
+        android:visibility="gone"
+        android:gravity="center" />
+
+    <!-- RecyclerView for favorite movies -->
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyclerView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager" />
+
+</LinearLayout>

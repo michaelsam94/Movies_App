@@ -72,7 +72,7 @@ This app uses **The Movie Database (TMDB) API** to fetch movies. You need to add
 
 ---
 
-## 📷 Screenshots  
+## 📷 Screenshots   
 
 | Movie List  | Movie Details | Favorites |
 |-------------|--------------|-----------|

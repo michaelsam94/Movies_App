@@ -51,6 +51,7 @@ android {
         viewBinding = true
         buildConfig = true
     }
+
 }
 
 dependencies {
@@ -86,6 +87,11 @@ dependencies {
     kapt(libs.compiler)
 
     testImplementation(libs.junit)
+    testImplementation(libs.org.mockito.mockito.core3)
+    testImplementation(libs.mockito.mockito.inline)
+    testImplementation(libs.mockito.kotlin)
+    testImplementation(libs.androidx.core.testing)
+    testImplementation(libs.kotlinx.coroutines.test)
     androidTestImplementation(libs.androidx.junit)
     androidTestImplementation(libs.androidx.espresso.core)
 }

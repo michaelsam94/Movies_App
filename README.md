@@ -76,7 +76,7 @@ This app uses **The Movie Database (TMDB) API** to fetch movies. You need to add
 
 | Movie List  | Movie Details | Favorites |
 |-------------|--------------|-----------|
-| ![Movie List](https://i.ibb.co/pj277Ntw/Screenshot-1740174545.png) | ![Movie Details](https://i.ibb.co/rGmbLCnG/Screenshot-1740174549.png) | ![Favorites](https://i.ibb.co/XkfWHQQ1/Screenshot-1740174552.png) |
+| ![Movie List](https://i.ibb.co/pj277Ntw/Screenshot-1740174545.png) | ![Movie Details](https://i.ibb.co/XkfWHQQ1/Screenshot-1740174552.png) | ![Favorites](https://i.ibb.co/rGmbLCnG/Screenshot-1740174549.png) |
 
 ---
 

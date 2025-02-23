@@ -29,7 +29,7 @@ An Android application that displays the best movies of 2024 using **MVVM archit
 
 ### 1️⃣ Clone the Repository  
 ```sh
-git clone https://github.com/yourusername/MoviesApp.git
+git clone https://github.com/michaelsam94/Movies_App
 cd MoviesApp
 ```
 
